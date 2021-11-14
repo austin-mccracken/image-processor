@@ -61,8 +61,6 @@ def blur_offensive_images(data):
             'https://cloud.google.com/apis/design/errors'.format(
                 result.error.message))
 
-    
-    
     # Process image
     if logos:
         print(f"The image {file_name} was detected with logos.")
